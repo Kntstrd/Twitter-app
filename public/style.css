@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(63, 62, 62);
+
+}
+.header-container{
+    margin-top: -19px;
+    background: rgb(44, 41, 41);
+    height: 100px;
+
+}
+.header-content{
+    color: rgb(187, 181, 181);
+    padding: 40px 10px 10px 80px;
+}
+.twitter-container{
+    padding: 20px 10%;
+}
+.twitter-item{
+    overflow: hidden;
+    min-width: 10px;
+    width: 92%;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(75, 74, 74);
+    padding: 30px;
+}
+.input-container{
+    border-radius: 5px;
+    border: 1.5px solid rgb(138, 138, 138);
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+.input-container:focus {
+    border: 2px solid rgb(87, 213, 252);
+}
+.tweet-button{
+    background:rgb(21, 153, 21);
+    padding: 5px 15px;
+    border: 1px solid rgb(21, 153, 21);
+    border-radius: 0.5em;
+    margin-top: 5px;
+    margin-left: 93.2%;
+    color: white;
+    cursor: pointer;
+}
+.tweet-time{
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+    
+}
+
+.ai{
+    background: rgb(223, 223, 45);
+}
+.tweet-text , .tweet-time{
+    float: right;
+}
+.ai .tweet-text{
+    float: left;
+}
+.ai .tweet-time{
+    float: left;
+}
